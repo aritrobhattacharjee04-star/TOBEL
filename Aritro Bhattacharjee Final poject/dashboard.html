@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard</title>
+    <link rel="stylesheet" href="dashboard-style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">MyApp Dashboard</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="#">Settings</a>
+            <a href="index.html" id="logoutButton">Logout</a>
+        </nav>
+    </header>
+
+    <div class="dashboard-container">
+        <div class="welcome-card">
+            <h2>Welcome Back, <span id="userNameDisplay">Guest</span>!</h2>
+            <p>You have successfully logged in. This is your personal dashboard.</p>
+            <div class="info-section">
+                <p>Status: <span class="status-active">Active</span></p>
+                <p>Last Login: Today</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="dashboard-script.js"></script>
+</body>
+</html>
